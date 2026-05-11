@@ -4,14 +4,13 @@
   "type": "module",
   "description": "A WhatsApp Bot Created By JawadTechX",
   "main": "index.js",
-  "scripts": {
-    "start": "node --expose-gc index.js",
-    "start:pm2": "pm2 start index.js --node-args='--expose-gc' --deep-monitoring --name KHAN-MD",
+   "scripts": {
+    "start": "pm2 start index.js --deep-monitoring --attach --name KHAN-MD",
     "stop": "pm2 stop KHAN-MD",
     "restart": "pm2 restart KHAN-MD"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "7.0.0-rc.9",
+    "@whiskeysockets/baileys": "7.0.0-rc.10",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@vitalets/google-translate-api": "^9.2.1",
     "pino": "^9.7.0",
