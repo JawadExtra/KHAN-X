@@ -23,6 +23,7 @@
     "google-tts-api": "^2.0.2",
     "file_size_url": "1.0.6",
     "fs-extra": "^11.1.0",
+    "link-preview-js": "4.0.3",
     "adm-zip": "^0.5.16",
     "ffmpeg": "^0.0.4",
     "file-type": "^21.0.0",
